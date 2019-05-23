@@ -4,20 +4,58 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
+
 }
 
-.container{
-  height: 800px;
-  width: 800px;
+body{
+    background-color: pink;
+}
+
+.control_panel{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  display: block;
+  margin:30px auto;
+  background-color: lightgrey;
+}
+
+button{
+  display: block;
+  margin:10px;
+  height: 30px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+input{
+  display: block;
+  margin:10px;
+  border: 1px solid black;
+  height: 30px;
+  width: 200px;
+}
+
+.album_figurine_basket{
+  background-color: brown;
+  height: 500px;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-
+  overflow-y: scroll;
 }
+
 h1{
   padding: 5px 0;
 }
 .scheda{
+  background-color: white;
+  margin: 20px;
   padding: 30px;
   height: 250px;
   width: 250px;
