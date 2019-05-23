@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+    </div>
+    <script id="basket-Handlebars" type="text/x-handlebars-template">
+      <div class="scheda" data="{{number}}">
+        <h3>Codice Giocatore : </h3>
+        <h1>{{playerCode}}</h1>
+        <p>rimbalzi : {{rebounds}}</p>
+        <p>falli : {{fouls}}</p>
+        <p>Punti : {{points}}</p>
+        <p>Tiri da 2 : {{twoPoints}}</p>
+        <p>Tiri da 3 : {{threePoints}}</p>
+      </div>
+    </script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
